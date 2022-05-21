@@ -1,0 +1,16 @@
+body {
+  background: #eee;
+  overflow-y: scroll;
+}
+
+.container {
+  width: 800px;
+  background: white;
+}
+
+/* In the <style> tag in index.html */
+.brushed {
+  stroke-width: 1;
+  stroke: gray;
+  r: 5;
+}
