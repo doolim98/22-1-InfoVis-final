@@ -12,7 +12,7 @@ let histogram;
 let selectedLoc = "Map";
 let width = document.getElementById("main-navbar").clientWidth;
 let params = {
-  csvUrl: "/vis_data.csv",
+  csvUrl: "./vis_data.csv",
   spm: {
     xyVars: ["js_len", "url_len", "js_obf_len"],
     qVars: ["q_js_len", "q_url_len", "q_js_obf_len"],
