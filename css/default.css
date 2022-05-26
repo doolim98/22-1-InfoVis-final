@@ -8,9 +8,31 @@ body {
   background: white;
 }
 
+.plot-matrix{
+  background: white;
+  text-align: center;
+  align-items: center;
+}
+.plot-matrix-cell{
+  background: white;
+  padding: 0;
+}
+.plot-grid-line{
+  stroke-width:1;
+  stroke-opacity: 0.1;
+  stroke:black
+}
+
+.plot-border{
+  fill:none;
+  stroke:black;
+  stroke-opacity:0.5
+}
+
+
 /* In the <style> tag in index.html */
 .brushed {
   stroke-width: 1;
   stroke: gray;
-  r: 5;
+  r: 4;
 }
